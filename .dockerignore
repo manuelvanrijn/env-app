@@ -1,0 +1,35 @@
+.git
+.gitignore
+README.md
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Docker
+docker-compose.*
+*Dockerfile*
+.dockerignore
+
+.env*
+*.log
+log
+tmp/cache/*
+tmp/*.txt
+tmp/storage/*
+public/system
+public/assets/*
+storage/*
+public/packs/*
+public/packs-test/*
+coverage/
+node_modules/
+brakeman-output.html
+spec/tmp
+.ruby-version
+.tool-versions
+.byebug_history
+.capistrano
+.erdconfig
+.docker-sync
